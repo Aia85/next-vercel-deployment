@@ -32,3 +32,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# MY README
+
+install yarn create next-app, go to documentacion for more options.
+
+Los funcional components o components de las pages tienen que estar en minúsculas.
+Las pages son directamente los paths de nuestras rutas
+En public todo el código que no queremos que sea compilado, código estático (js, imagenes, etc)
+
+En Next tenemos:
+- Static Generation (Recomendada/default): renderiza las páginas una vez y las reutiliza
+- Server-Side Rendering: Las renderiza cada vez del lado del servidor (solo usar para ej: stock de producto que 
+    varía continuamente.)
+
+Despliegue:
+
+- 1. yarn build / yarn start
+- 2. Vercel (es de Next) ->
+- 3. Docker
